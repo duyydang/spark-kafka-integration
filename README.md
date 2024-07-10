@@ -1,6 +1,6 @@
 # This project is very easy to use for newbie
 
-## We have some Step to build this
+## It have some Step to build this
 ### 1 Run docker compose
 Open terminal and run: docker compose up -d \
 In this docker-compose.yml file, I use kafdrop that will manage and monitor all messages and topics from kafka \
