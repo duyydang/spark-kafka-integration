@@ -13,8 +13,9 @@ https://spark.apache.org/downloads.html
 
 ### 3 Run submit spark
 In this case I'm running Spark in standalone mode on my local machine rather than in Docker
-You need check master spark in spark UI and replace link spark master \
+You need check master spark in spark UI and replace link spark master 
 
---master <spark://duydang:7077> \
---packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
-spark_kafka_integration.py
+spark-submit \
+  --master spark://duydang:7077 \
+  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
+  spark_kafka_integration.py
