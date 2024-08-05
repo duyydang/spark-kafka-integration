@@ -1,5 +1,4 @@
-# This project is very easy to use for newbie
-
+# This project is a base for how to use spark and kafka
 ## It have some Step to build this
 ### 1 Run docker compose
 Open terminal and run: docker compose up -d \
